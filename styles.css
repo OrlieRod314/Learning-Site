@@ -41,6 +41,18 @@ button:hover {
 .name {
   font-weight: bold;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: springgreen;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+}
 
 @media (max-width: 499px) {
   #mobile_message::before {
