@@ -41,3 +41,9 @@ button:hover {
 .name {
   font-weight: bold;
 }
+
+@media (max-width: 499px) {
+  #mobile_message::before {
+    content: "Hello mobile user"
+  }
+}
