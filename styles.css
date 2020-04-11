@@ -1,15 +1,20 @@
-h1 {
-  color: blue;
-  text-align: center;
+body {
+  background-color: lightgray;
 }
-div {
-  font-family: Arial, sans-serif;
-  font-size: 28px;
+h1 {
+  font-family: courier, sans-serif;
+  text-align: left;
+}
 
-  background-color: teal;
-  width: 50%;
-  margin: 30px;
+div {
+  font-family: courier, sans-serif;
+  font-size: 20px;
+
+  background-color: lightblue;
+  border: 2px solid blue;
+  border-radius: 4px;
   padding: 20px;
+
 }
 
 table {
@@ -35,8 +40,42 @@ button:hover {
   background-color: orange;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
 #top {
-  font-size: 36px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px
+}
+
+#middle {
+  width: 70%;
+  font-size: 17px;
+  margin: 30px;
+
+}
+
+#right {
+  float: right;
 }
 .name {
   font-weight: bold;
@@ -57,5 +96,11 @@ button:hover {
 @media (max-width: 499px) {
   #mobile_message::before {
     content: "Hello mobile user"
+  }
+}
+
+@media (min-width: 500px) {
+  #mobile_message::before {
+    content: "Check out the mobile version!"
   }
 }
