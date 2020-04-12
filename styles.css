@@ -64,6 +64,8 @@ ul {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+
 ul h4 {
   text-align: center;
 }
@@ -76,8 +78,8 @@ li a {
 }
 
 li a.active {
-  background-color: teal;
-  color: white;
+  background-color: lightgray;
+  color: black;
 }
 
 li a:hover:not(.active) {
