@@ -10,7 +10,8 @@ body {
 
 
 header {
-  background-color: whitesmoke;
+  background-color: black;
+  color: white;
   text-align: left;
   font-family: Copperplate;
   border-bottom: 1px solid black;
