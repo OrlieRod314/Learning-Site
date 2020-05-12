@@ -115,7 +115,9 @@ nav li a:hover:not(.active) {
 .post-notes {
   font-size: 12px;
   font-weight: lighter;
-
+}
+.post-image{
+  opacity: 1;
 }
 .hangingindent {
   padding-left: 22px ;
