@@ -47,8 +47,10 @@ th {
 
 
 ul {
+  
+  font-family: Copperplate;
 
-  font-family: courier, sans-serif;
+  #font-family: courier, sans-serif;
   text-align: center;
   list-style-type: none;
   opacity: .9;
