@@ -115,6 +115,10 @@ li a:hover:not(.active) {
   font-weight: lighter;
 
 }
+.hangingindent {
+  padding-left: 22px ;
+  text-indent: -22px ;
+}
 
 @media (max-width: 499px) {
   #mobile_message::before {
