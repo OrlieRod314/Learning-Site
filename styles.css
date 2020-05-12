@@ -16,7 +16,7 @@ header {
   font-family: Copperplate;
   border-bottom: 1px solid black;
   padding: 10px;
-  padding-left: 10%
+  # padding-left: 10%
 }
 
 h1 {
