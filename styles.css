@@ -118,6 +118,7 @@ nav li a:hover:not(.active) {
 }
 .post-image{
   opacity: 1;
+  width: 30%;
 }
 .hangingindent {
   padding-left: 22px ;
