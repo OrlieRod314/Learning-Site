@@ -10,6 +10,11 @@ body {
 
 
 header {
+  <!-- 
+    This is a multiline comment and it can
+    span through as many as lines you like.
+  -->
+  
   background-color: transparent;
   color: white;
   text-align: center;
