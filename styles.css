@@ -117,6 +117,7 @@ nav li a:hover:not(.active) {
   font-weight: lighter;
 }
 .post-image{
+  margin: auto;
   opacity: 1;
   width: 30%;
 }
