@@ -118,8 +118,9 @@ nav li a:hover:not(.active) {
 }
 .post-image{
   margin: auto;
+  padding: 10px;
   opacity: 1;
-  width: 30%;
+  width: 40%;
 }
 .hangingindent {
   padding-left: 22px ;
