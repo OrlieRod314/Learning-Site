@@ -1,147 +1,154 @@
 body {
-  background-image: url("images/site-wallpaper.jpg");
-  background-size: cover;
-  margin: 0;
+	background-image: url("images/site-wallpaper.jpg");
+	background-size: cover;
+	margin: 0;
 }
 
 .under_construction {
-  background-color: lightgray;
+	background-color: lightgray;
 }
 
-
 header {
-    background-color: transparent;
+	background-color: transparent;
 	color: white;
 	text-align: center;
 	font-family: Arial;
 	# border-bottom: 1px solid black;
 	padding: 10px;
 	# padding-left: 10%
-
 }
 
 h1 {
-  font-weight: bold;
-  margin-bottom: 10px
+	font-weight: bold;
+	margin-bottom: 10px
 }
 
 div {
-  background-color: white;
+	background-color: white;
 }
 
 table {
-  border: 2px solid black;
-  border-collapse: collapse;
-  width: 50%;
-}
-th, td {
-  border: 1px solid black;
-  padding: 5px;
-  text-align: center;
-}
-th {
-  background-color: lightgray;
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 50%;
 }
 
+th,
+td {
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+}
+
+th {
+	background-color: lightgray;
+}
 
 nav ul {
-
-  font-family: courier, sans-serif;
-  text-align: center;
-  list-style-type: none;
-  opacity: .9;
-  margin-right: 2.5%;
-  margin-top: 30px;
-  padding: 0;
-  width: 15%;
-  background-color: white;
-  position: fixed;
-  right: 0;
-
-  overflow: auto;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-family: courier, sans-serif;
+	text-align: center;
+	list-style-type: none;
+	opacity: .9;
+	margin-right: 2.5%;
+	margin-top: 30px;
+	padding: 0;
+	width: 15%;
+	background-color: white;
+	position: fixed;
+	right: 0;
+	overflow: auto;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
 nav ul h4 {
-  text-align: center;
+	text-align: center;
 }
 
 nav li a {
-  display: block;
-  color: black;
-  padding: 8px 16px;
-  text-decoration: none;
+	display: block;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
 }
 
 nav li a.active {
-  background-color: lightgray;
-  color: black;
+	background-color: lightgray;
+	color: black;
 }
 
 nav li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+	background-color: #555;
+	color: white;
 }
 
 #container {
-  margin-top: 30px;
-  margin-left: 10%;
-  margin-right: 20%;
-  padding: 10px;
-  font-family: Arial, sans-serif;
-  opacity: .85;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-right: 20%;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	opacity: .85;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #pic-container {
-  margin-left: 20%;
-  margin-right: 30%;
-  padding: 10px;
-  font-family: Arial, sans-serif;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 30px;
+  margin-left: 30%;
+	margin-right: 40%;
+	padding: 10px;
+	font-family: Arial, sans-serif;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.post-date {
 
+.pic-title {
   font-size: 15px;
+  text-align: center;
   font-weight: bold;
 }
+
+.post-date {
+	font-size: 15px;
+	font-weight: bold;
+}
+
 .post-title {
-  font-size: 20px;
-  font-weight: bold;
+	font-size: 20px;
+	font-weight: bold;
 }
+
 .post-text {
-  font-size: 15px;
+	font-size: 15px;
 }
+
 .post-notes {
-  font-size: 12px;
-  font-weight: lighter;
+	font-size: 12px;
+	font-weight: lighter;
 }
-.post-image{
-  margin: auto;
-  padding: 10px;
-  width: 40%;
+
+.post-image {
+	width: 100%;
+  border-radius: 5px;
 }
+
 .hangingindent {
-  padding-left: 22px ;
-  text-indent: -22px ;
+	padding-left: 22px;
+	text-indent: -22px;
 }
 
 @media (max-width: 499px) {
-  #mobile_message::before {
-    content: "Hello mobile user"
-  }
+	#mobile_message::before {
+		content: "Hello mobile user"
+	}
 }
 
 @media (min-width: 500px) {
-  #mobile_message::before {
-    content: "Check out the mobile version!"
-  }
+	#mobile_message::before {
+		content: "Check out the mobile version!"
+	}
 }
