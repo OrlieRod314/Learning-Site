@@ -12,10 +12,10 @@ header {
 	background-color: transparent;
 	color: white;
 	text-align: center;
-	font-family: Arial;
-	# border-bottom: 1px solid black;
+	font: 14px "Century Gothic", Futura, sans-serif;
+	#border-bottom: 1px solid black;
 	padding: 10px;
-	# padding-left: 10%
+	#padding-left: 10%
 }
 
 h1 {
